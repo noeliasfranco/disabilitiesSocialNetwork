@@ -1,3 +1,4 @@
+
 form {
   width: 400px;
 }
@@ -53,3 +54,82 @@ form {
 .online_indicator.online {
   background-position: -15px 0;
 }
+.footer-container{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	opacity: 0.1;
+}
+
+.main-container{
+	background: url("../images/monster.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* LOGIN SECTION */
+.signin{
+	 margin-right: auto; 
+	 margin-left: auto; 
+	 margin-top: 5%;
+	 width: 100%;	
+ 	 border-radius: 30px;
+	 padding: 3%;
+	 zoom: 2;
+}
+
+
+.submit-div{
+	padding: 3%;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	font-size: 30px;
+	width: 900px;
+	margin-left: 10%;
+}
+
+.submit-div a:link{
+	color: black;
+}
+
+
+.submit-div a{
+	color: black;
+}
+
+.register-div{
+	clear: both;
+}
+
+.login-form{
+	width: 100%;
+}
+
+.icon-margin{
+	margin-left: 5%;
+
+}
+#forgot-icon{
+ -webkit-transform:rotate(120deg);
+  -moz-transform:rotate(120deg);
+  -o-transform:rotate(120deg);
+  /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+  -ms-transform:rotate(120deg);       
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 940px) {
+		
+	.signin{
+		clear: both;
+		float: left;
+	}
+	
+
+}
+
+

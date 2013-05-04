@@ -1,11 +1,23 @@
 !!! 5
 html(lang="en")
-  head
-    title Social Network
-    link(rel='stylesheet',href='/styles/styles.css')
-  body
-    block content
+	head
+		title Social Network
+		meta(name='viewport',content='width=device-width')
+		link(rel='stylesheet',href='/styles/normalize.css')
+		script(src='http://code.jquery.com/jquery.js')
+		link(rel='stylesheet',href='/styles/main.css')
+		link(rel='stylesheet',href='/styles/styles.css')
+		link(rel='stylesheet',href='/css/bootstrap.css')
+		link(rel='stylesheet',href='/css/font-awesome.css')
+
+	body
+		div.header-container
+			header.wrapper.clearfix
+
+		div.main-container
+			div.main.wrapper.clearfix
+				block content
     
-    div#chat
-    
-    block scripts
+				div#chat
+		
+		block scripts
