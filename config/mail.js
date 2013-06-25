@@ -6,8 +6,8 @@ module.exports = {
   secureConnection: true,
   //name: "servername",
   auth: {
-    user: "noeliasfranco@gmail.com",
-    pass: "18511830Nsf"
+    user: "admin gmail account",
+    pass: "password"
   },
   ignoreTLS: false,
   debug: false,
